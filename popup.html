@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alert Pop-Up</title>
+</head>
+<body>
+
+  <button onclick="confirmRedirect()">Go to yt</button>
+
+<script>
+  function confirmRedirect() {
+    if (confirm("Do you want to visit yt?")) {
+      // User clicked OK → go to Google
+      window.open("https://www.youtube.com");
+    } else {
+      // User clicked Cancel
+      window.open("file:///C:/Users/hp/OneDrive/Desktop/HI.html");
+    }
+  }
+</script>
+
+
+</body>
+</html>
